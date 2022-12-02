@@ -7,23 +7,33 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 import ToggleButton from "react-bootstrap/ToggleButton";
+import questionImage from "../img/questionmark.png";
+import loudSpeaker from "../img/loudspeaker.png";
+import pencil from "../img/pencil.png";
+import "./Thread.css";
+import Stack from "react-bootstrap/Stack";
 
 const Thread = () => {
   const [show, setShow] = useState(false);
   const [title, setTitle] = useState("");
   const [newPortButtonAbled, setNewPortButtonAbled] = useState(true);
   const [radioValue, setRadioValue] = useState("1");
+  const [bodyText, setBodyText] = useState("");
   const radios = [
     { name: "Question", value: "1" },
     { name: "Suggestion", value: "2" },
     { name: "Clarification", value: "3" },
   ];
+  const images = [questionImage, loudSpeaker, pencil];
   const handleShow = () => setShow(true);
   const handleClose = () => setShow(false);
 
   const titleChangedHandler = (e) => {
     setTitle(e.target.value);
-    console.log(title);
+  };
+
+  const postBodyHandler = (e) => {
+    setBodyText(e.target.value);
   };
 
   useEffect(() => {
@@ -40,19 +50,21 @@ const Thread = () => {
           <Card.Text>Thread description</Card.Text>
 
           <Form>
-            <Col sm="10">
-              <Form.Control
-                onChange={titleChangedHandler}
-                placeholder="New Post Title"
-              ></Form.Control>
-            </Col>
-            <Button
-              onClick={handleShow}
-              variant="primary"
-              disabled={newPortButtonAbled}
-            >
-              New Post
-            </Button>
+            <Stack direction="horizontal" gap={3}>
+              <Col sm="10">
+                <Form.Control
+                  onChange={titleChangedHandler}
+                  placeholder="New Post Title"
+                ></Form.Control>
+              </Col>
+              <Button
+                onClick={handleShow}
+                variant="outline-secondary"
+                disabled={newPortButtonAbled}
+              >
+                New Post
+              </Button>
+            </Stack>
           </Form>
         </Card.Body>
       </Card>
@@ -84,8 +96,11 @@ const Thread = () => {
               controlId="exampleForm.ControlTextarea1"
             >
               <Form.Label>Post Body</Form.Label>
-              <Form.Control as="textarea" rows={3} />
+              <Form.Control onChange={postBodyHandler} as="textarea" rows={3} />
             </Form.Group>
+            <Card>
+              <Card.Img className="card-img" src={images[radioValue - 1]} />
+            </Card>
           </Form>
         </Modal.Body>
         <Modal.Footer>

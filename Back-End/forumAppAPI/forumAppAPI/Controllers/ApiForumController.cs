@@ -26,10 +26,16 @@ namespace forumAppAPI.Controllers
             return Ok(threadPost.GetAllPosts());
         }
 
-        [HttpGet("Posts/{id}")]
-        public ActionResult<List<ForumThread>> GetAllPosts(int id)
+        [HttpGet("Posts/{threadId}")]
+        public ActionResult<List<ForumThread>> GetAllPostsByThreadId(int threadId)
         {
-            return Ok(threadPost.GetAllPostsByThreadId(id));
+            return Ok(threadPost.GetAllPostsByThreadId(threadId));
+        }
+
+        [HttpGet("Posts/chk")]
+        public ActionResult<bool> CheckifPostExists(int id)
+        {
+            return Ok(threadPost.CheckifPostExists(id));
         }
     }
 }

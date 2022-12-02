@@ -224,19 +224,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pedro.Cienfuegos\\.nuget\\packages\\": {}
+    "C:\\Users\\Cristian.Anei\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\forumAppAPI\\forumAppAPI\\forumAppAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Cristian.Anei\\OneDrive - Solera Holdings, Inc\\Documents\\Workspace\\forumApp\\Back-End\\forumAppAPI\\forumAppAPI\\forumAppAPI.csproj",
       "projectName": "forumAppAPI",
-      "projectPath": "C:\\forumAppAPI\\forumAppAPI\\forumAppAPI.csproj",
-      "packagesPath": "C:\\Users\\Pedro.Cienfuegos\\.nuget\\packages\\",
-      "outputPath": "C:\\forumAppAPI\\forumAppAPI\\obj\\",
+      "projectPath": "C:\\Users\\Cristian.Anei\\OneDrive - Solera Holdings, Inc\\Documents\\Workspace\\forumApp\\Back-End\\forumAppAPI\\forumAppAPI\\forumAppAPI.csproj",
+      "packagesPath": "C:\\Users\\Cristian.Anei\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Cristian.Anei\\OneDrive - Solera Holdings, Inc\\Documents\\Workspace\\forumApp\\Back-End\\forumAppAPI\\forumAppAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Pedro.Cienfuegos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Cristian.Anei\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -13,7 +13,7 @@ import pencil from "../img/pencil.png";
 import "./Thread.css";
 import Stack from "react-bootstrap/Stack";
 
-const Thread = () => {
+const Thread = (props) => {
   const [show, setShow] = useState(false);
   const [title, setTitle] = useState("");
   const [newPortButtonAbled, setNewPortButtonAbled] = useState(true);
@@ -45,9 +45,9 @@ const Thread = () => {
   return (
     <>
       <Card>
-        <Card.Header>Thread Name</Card.Header>
+        <Card.Header>{props.title}}</Card.Header>
         <Card.Body>
-          <Card.Text>Thread description</Card.Text>
+          <Card.Text>{props.description}</Card.Text>
 
           <Form>
             <Stack direction="horizontal" gap={3}>

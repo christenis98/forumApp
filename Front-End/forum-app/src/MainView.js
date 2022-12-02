@@ -1,26 +1,34 @@
+import { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
+
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import DefaultContainer from "./Components/DefaultContainer";
 
 import Thread from "./Components/Thread";
 
 function MainView() {
+  const API_URL = "https://localhost:7262/Threads";
+
+  const [threads, setThreads] = useState([]);
+
+  const getThreads = async () => {
+    const res = await fetch(API_URL);
+    const data = await res.json();
+    return data;
+  };
+
+  useEffect(() => {
+    getThreads().then((data) => setThreads(data));
+
+    console.log(threads);
+  }, []);
+
   return (
-    <Container className="d-flex flex-column gap-3">
-      <Navbar bg="light" expand="lg">
-        <Container>
-          <Navbar.Brand href="#home">Forum</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        </Container>
-      </Navbar>
-      <Container className="d-flex flex-column gap-3">
-        <Thread></Thread>
-        <Thread></Thread>
-        <Thread></Thread>
-        <Thread></Thread>
-      </Container>
-    </Container>
+    <DefaultContainer>
+      {threads.map((thread) => (
+        <Thread title={thread.title} description={thread.description}></Thread>
+      ))}
+    </DefaultContainer>
   );
 }
 

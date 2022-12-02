@@ -25,3 +25,30 @@ C:\forumAppAPI\forumAppAPI\obj\Debug\net6.0\refint\forumAppAPI.dll
 C:\forumAppAPI\forumAppAPI\obj\Debug\net6.0\forumAppAPI.pdb
 C:\forumAppAPI\forumAppAPI\obj\Debug\net6.0\forumAppAPI.genruntimeconfig.cache
 C:\forumAppAPI\forumAppAPI\obj\Debug\net6.0\ref\forumAppAPI.dll
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\bin\Debug\net6.0\forumAppAPI.exe
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\bin\Debug\net6.0\forumAppAPI.deps.json
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\bin\Debug\net6.0\forumAppAPI.runtimeconfig.json
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\bin\Debug\net6.0\forumAppAPI.dll
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\bin\Debug\net6.0\forumAppAPI.pdb
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\obj\Debug\net6.0\forumAppAPI.csproj.AssemblyReference.cache
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\obj\Debug\net6.0\forumAppAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\obj\Debug\net6.0\forumAppAPI.AssemblyInfoInputs.cache
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\obj\Debug\net6.0\forumAppAPI.AssemblyInfo.cs
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\obj\Debug\net6.0\forumAppAPI.csproj.CoreCompileInputs.cache
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\obj\Debug\net6.0\forumAppAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\obj\Debug\net6.0\forumAppAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\obj\Debug\net6.0\scopedcss\bundle\forumAppAPI.styles.css
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\obj\Debug\net6.0\forumAppAPI.csproj.CopyComplete
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\obj\Debug\net6.0\forumAppAPI.dll
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\obj\Debug\net6.0\refint\forumAppAPI.dll
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\obj\Debug\net6.0\forumAppAPI.pdb
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\obj\Debug\net6.0\forumAppAPI.genruntimeconfig.cache
+C:\Users\Cristian.Anei\OneDrive - Solera Holdings, Inc\Documents\Workspace\forumApp\Back-End\forumAppAPI\forumAppAPI\obj\Debug\net6.0\ref\forumAppAPI.dll

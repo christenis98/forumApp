@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\forumAppAPI\\forumAppAPI\\forumAppAPI.csproj",
+      "projectUniqueName": "C:\\GitHub\\forumApp\\Back-End\\forumAppAPI\\forumAppAPI\\forumAppAPI.csproj",
       "projectName": "forumAppAPI",
-      "projectPath": "C:\\forumAppAPI\\forumAppAPI\\forumAppAPI.csproj",
+      "projectPath": "C:\\GitHub\\forumApp\\Back-End\\forumAppAPI\\forumAppAPI\\forumAppAPI.csproj",
       "packagesPath": "C:\\Users\\Pedro.Cienfuegos\\.nuget\\packages\\",
-      "outputPath": "C:\\forumAppAPI\\forumAppAPI\\obj\\",
+      "outputPath": "C:\\GitHub\\forumApp\\Back-End\\forumAppAPI\\forumAppAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pedro.Cienfuegos\\AppData\\Roaming\\NuGet\\NuGet.Config",

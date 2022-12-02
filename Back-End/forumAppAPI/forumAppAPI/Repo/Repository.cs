@@ -39,5 +39,17 @@ namespace forumAppAPI.Repo
             var filteredList = posts.Where(p => p.threadid == id);
             return filteredList.ToList();
         }
+
+        public bool CheckifPostExists(int id)
+        {
+            foreach (ForumPost post in posts)
+            {
+                if (post.threadid == id) return true;    
+            }
+
+            return false;
+        }
+
+
     }
 }

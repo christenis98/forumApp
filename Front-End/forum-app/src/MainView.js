@@ -7,14 +7,14 @@ import Thread from "./Components/Thread";
 
 function MainView() {
   return (
-    <Container>
+    <Container className="d-flex flex-column gap-3">
       <Navbar bg="light" expand="lg">
         <Container>
           <Navbar.Brand href="#home">Forum</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
         </Container>
       </Navbar>
-      <Container>
+      <Container className="d-flex flex-column gap-3">
         <Thread></Thread>
         <Thread></Thread>
         <Thread></Thread>
